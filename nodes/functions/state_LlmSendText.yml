@@ -1,7 +1,17 @@
 ---
 id: state_LlmSendText
 name: Llm.sendText
-
+position:
+  x: 1191
+  y: 376
+next-step: state_SendText
+parameters:
+  type: SYSTEM
+  collection: Llm
+  function: sendText
+  is-tool: false
+  parameters:
+    llmModelKey:
       type: LLM_MODEL
       value: 1000001-open_ai_gpt41-faj
       filled-ai: false
