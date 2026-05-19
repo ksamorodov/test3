@@ -1,4 +1,10 @@
 ---
+id: state_Agent
+name: Агент
+position:
+  x: 844
+  y: -290
+next-step: null
 parameters:
   llm-model-key: 1000001-open_ai_gpt41-faj
   llm-model-settings:
@@ -9,7 +15,7 @@ parameters:
     presence-penalty: 0.0
     verbose-mode: true
   system-promts:
-    role: Помощник
+    role: Помощник2
     goal: "Выполни задание, которое тебе дал пользователь"
     instructions: |-
       Если пользователь просит найти новости:
@@ -22,7 +28,7 @@ parameters:
       1. Проанализируй последние сообщения в чате.
       2. Составь один абзац текста с основными событиями, переведи на русский язык. Ссылки и даты не включай.
       3. Отправь пользователю.
-    query-override: null
+    query-override: ""
   tools:
   - state_searchArticles
   handoff-agents:
