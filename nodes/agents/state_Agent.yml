@@ -1,13 +1,14 @@
 ---
-id:safsefasd state_Agent
-af
+id: state_Agent
+name: Агент
+position:
   x: 844
   y: -290
 next-step: null
-paramefafters:
+parameters:
   llm-model-key: 1000001-open_ai_gpt41-vcf
   llm-model-settings:
-    maafx-tokens: 4000
+    max-tokens: 4000
     temperature: 0.6
     top-p: 1.0
     frequency-penalty: 0.0

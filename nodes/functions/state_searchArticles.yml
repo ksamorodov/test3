@@ -11,8 +11,8 @@ parameters:
   function: searchArticles
   is-tool: true
   parameters:
-    query:
+    queryasd:
       type: STRING
-      value: ""
-      filled-ai: true
+      value: null
+      filled-ai: false
   context-config: null
