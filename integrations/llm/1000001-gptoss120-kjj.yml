@@ -1,0 +1,7 @@
+---
+key: 1000001-gptoss120-kjj
+credential-key: 1000001-test-tfn
+name: gpt-oss-120
+provider: OPEN_AI
+model: gpt-5
+is-direct-access: true

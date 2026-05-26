@@ -1,0 +1,30 @@
+---
+id: agent_ippxt
+name: Агент
+position:
+  x: 528
+  y: -94
+next-step: null
+parameters:
+  llm-model-key: 1000001-gptoss120-kjj
+  llm-model-settings:
+    max-tokens: 4000
+    temperature: 0.6
+    top-p: 1.0
+    frequency-penalty: 0.0
+    presence-penalty: 0.0
+    verbose-mode: true
+  system-promts:
+    role: помоги пользователю
+    goal: помоги пользователю
+    instructions: помоги пользователю
+    query-override: ""
+  tools: []
+  handoff-agents:
+    allowed-any: false
+    allowed-agent-node-ids: []
+  stay-in-agent: false
+  telephony-config: null
+  enable-context: true
+  chat-history-limit: 50
+  sequential-tool-calls-limit: 5
