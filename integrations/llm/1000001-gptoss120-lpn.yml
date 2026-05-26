@@ -1,7 +1,0 @@
----
-key: 1000001-gptoss120-lpn
-credential-key: 1000001-test2-kqj
-name: gpt-oss-120
-provider: OPEN_AI
-model: gpt-5
-is-direct-access: true

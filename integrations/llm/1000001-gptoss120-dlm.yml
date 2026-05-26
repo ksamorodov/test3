@@ -1,7 +1,0 @@
----
-key: 1000001-gptoss120-dlm
-credential-key: 1000001-qwer-prs
-name: gpt-oss-120
-provider: OPEN_AI
-model: gpt-5
-is-direct-access: true
