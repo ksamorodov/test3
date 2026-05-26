@@ -1,6 +1,6 @@
 ---
-key: 1000001-open_ai_gpt5-dva
-credential-key: 1000001-test-rbt
+key: 1000001-open_ai_gpt5-fbb
+credential-key: 1000001-test-tfn
 name: OPEN_AI - gpt-5
 provider: OPEN_AI
 model: gpt-5.2
